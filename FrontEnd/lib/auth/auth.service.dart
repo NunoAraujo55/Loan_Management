@@ -1,0 +1,26 @@
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+class AuthService {
+  static final AuthService instance = AuthService._internal();
+  final FlutterSecureStorage _storage = FlutterSecureStorage();
+
+  AuthService._internal();
+
+  Future<void> storeTokens(String accessToken, String refreshToken) async {
+    await _storage.write(key: 'accessToken', value: accessToken);
+    await _storage.write(key: 'refreshToken', value: refreshToken);
+  }
+
+  Future<String?> getAccessToken() async {
+    return _storage.read(key: 'accessToken');
+  }
+
+  Future<String?> getRefreshToken() async {
+    return _storage.read(key: 'refreshToken');
+  }
+
+  Future<void> clearTokens() async {
+    await _storage.delete(key: 'accessToken');
+    await _storage.delete(key: 'refreshToken');
+  }
+}

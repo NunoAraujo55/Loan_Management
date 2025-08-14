@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "fetch-imi": "node scripts/fetch-imi.js"
+    },
+    "dependencies": {
+        "axios": "^1.8.4"
+    }
+}

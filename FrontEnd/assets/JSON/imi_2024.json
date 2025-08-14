@@ -1,0 +1,2522 @@
+[
+  {
+    "id": 43,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "ANGRA DO HEROISMO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 44,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "CALHETA (AÇORES)",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 45,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "SANTA CRUZ DA GRACIOSA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 46,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "VELAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 47,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "VILA PRAIA DA VITORIA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 48,
+    "distrito": "01AVEIRO",
+    "municipio": "AGUEDA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 49,
+    "distrito": "01AVEIRO",
+    "municipio": "ALBERGARIA-A-VELHA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 50,
+    "distrito": "01AVEIRO",
+    "municipio": "ANADIA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 51,
+    "distrito": "01AVEIRO",
+    "municipio": "AROUCA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 52,
+    "distrito": "01AVEIRO",
+    "municipio": "AVEIRO",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 53,
+    "distrito": "01AVEIRO",
+    "municipio": "CASTELO DE PAIVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 54,
+    "distrito": "01AVEIRO",
+    "municipio": "ESTARREJA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 55,
+    "distrito": "01AVEIRO",
+    "municipio": "ILHAVO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 56,
+    "distrito": "01AVEIRO",
+    "municipio": "MEALHADA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 57,
+    "distrito": "01AVEIRO",
+    "municipio": "MURTOSA",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 58,
+    "distrito": "01AVEIRO",
+    "municipio": "OLIVEIRA DE AZEMEIS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 59,
+    "distrito": "01AVEIRO",
+    "municipio": "OLIVEIRA DO BAIRRO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 60,
+    "distrito": "01AVEIRO",
+    "municipio": "OVAR",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 61,
+    "distrito": "01AVEIRO",
+    "municipio": "SANTA MARIA DA FEIRA",
+    "taxa": "0.3650",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 62,
+    "distrito": "01AVEIRO",
+    "municipio": "SEVER DO VOUGA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 63,
+    "distrito": "01AVEIRO",
+    "municipio": "VAGOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 64,
+    "distrito": "01AVEIRO",
+    "municipio": "VALE DE CAMBRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:15.000Z",
+    "updatedAt": "2025-05-23T17:54:15.000Z"
+  },
+  {
+    "id": 65,
+    "distrito": "02BEJA",
+    "municipio": "ALJUSTREL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 66,
+    "distrito": "02BEJA",
+    "municipio": "ALMODOVAR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 67,
+    "distrito": "02BEJA",
+    "municipio": "ALVITO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 68,
+    "distrito": "02BEJA",
+    "municipio": "BARRANCOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 69,
+    "distrito": "02BEJA",
+    "municipio": "BEJA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 70,
+    "distrito": "02BEJA",
+    "municipio": "CASTRO VERDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 71,
+    "distrito": "02BEJA",
+    "municipio": "CUBA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 72,
+    "distrito": "02BEJA",
+    "municipio": "FERREIRA DO ALENTEJO",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 73,
+    "distrito": "02BEJA",
+    "municipio": "MERTOLA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 74,
+    "distrito": "02BEJA",
+    "municipio": "MOURA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 75,
+    "distrito": "02BEJA",
+    "municipio": "ODEMIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 76,
+    "distrito": "02BEJA",
+    "municipio": "OURIQUE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 77,
+    "distrito": "02BEJA",
+    "municipio": "SERPA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 78,
+    "distrito": "02BEJA",
+    "municipio": "VIDIGUEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:29.000Z",
+    "updatedAt": "2025-05-23T17:54:29.000Z"
+  },
+  {
+    "id": 79,
+    "distrito": "03BRAGA",
+    "municipio": "AMARES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 80,
+    "distrito": "03BRAGA",
+    "municipio": "BARCELOS",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 81,
+    "distrito": "03BRAGA",
+    "municipio": "BRAGA",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 82,
+    "distrito": "03BRAGA",
+    "municipio": "CABECEIRAS DE BASTO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 83,
+    "distrito": "03BRAGA",
+    "municipio": "CELORICO DE BASTO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 84,
+    "distrito": "03BRAGA",
+    "municipio": "ESPOSENDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 85,
+    "distrito": "03BRAGA",
+    "municipio": "FAFE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 86,
+    "distrito": "03BRAGA",
+    "municipio": "GUIMARÃES",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 87,
+    "distrito": "03BRAGA",
+    "municipio": "POVOA DE LANHOSO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 88,
+    "distrito": "03BRAGA",
+    "municipio": "TERRAS DE BOURO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 89,
+    "distrito": "03BRAGA",
+    "municipio": "VIEIRA DO MINHO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 90,
+    "distrito": "03BRAGA",
+    "municipio": "VILA NOVA DE FAMALICÃO",
+    "taxa": "0.3350",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 91,
+    "distrito": "03BRAGA",
+    "municipio": "VILA VERDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 92,
+    "distrito": "03BRAGA",
+    "municipio": "VIZELA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:33.000Z",
+    "updatedAt": "2025-05-23T17:54:33.000Z"
+  },
+  {
+    "id": 93,
+    "distrito": "04BRAGANCA",
+    "municipio": "ALFANDEGA DA FE",
+    "taxa": "0.3800",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 94,
+    "distrito": "04BRAGANCA",
+    "municipio": "BRAGANÇA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 95,
+    "distrito": "04BRAGANCA",
+    "municipio": "CARRAZEDA DE ANSIÃES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 96,
+    "distrito": "04BRAGANCA",
+    "municipio": "FREIXO DE ESPADA A CINTA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 97,
+    "distrito": "04BRAGANCA",
+    "municipio": "MACEDO DE CAVALEIROS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 98,
+    "distrito": "04BRAGANCA",
+    "municipio": "MIRANDA DO DOURO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 99,
+    "distrito": "04BRAGANCA",
+    "municipio": "MIRANDELA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 100,
+    "distrito": "04BRAGANCA",
+    "municipio": "MOGADOURO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 101,
+    "distrito": "04BRAGANCA",
+    "municipio": "TORRE DE MONCORVO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 102,
+    "distrito": "04BRAGANCA",
+    "municipio": "VILA FLOR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 103,
+    "distrito": "04BRAGANCA",
+    "municipio": "VIMIOSO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 104,
+    "distrito": "04BRAGANCA",
+    "municipio": "VINHAIS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:39.000Z",
+    "updatedAt": "2025-05-23T17:54:39.000Z"
+  },
+  {
+    "id": 15,
+    "distrito": "05C BRANCO",
+    "municipio": "BELMONTE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 16,
+    "distrito": "05C BRANCO",
+    "municipio": "CASTELO BRANCO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 17,
+    "distrito": "05C BRANCO",
+    "municipio": "COVILHÃ",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 18,
+    "distrito": "05C BRANCO",
+    "municipio": "FUNDÃO",
+    "taxa": "0.3800",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 19,
+    "distrito": "05C BRANCO",
+    "municipio": "IDANHA-A-NOVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 20,
+    "distrito": "05C BRANCO",
+    "municipio": "OLEIROS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 21,
+    "distrito": "05C BRANCO",
+    "municipio": "PENAMACOR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 22,
+    "distrito": "05C BRANCO",
+    "municipio": "PROENÇA-A-NOVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 23,
+    "distrito": "05C BRANCO",
+    "municipio": "SERTÃ",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 24,
+    "distrito": "05C BRANCO",
+    "municipio": "VILA DE REI",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 25,
+    "distrito": "05C BRANCO",
+    "municipio": "VILA VELHA DE RODÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:36.000Z",
+    "updatedAt": "2025-05-23T17:52:36.000Z"
+  },
+  {
+    "id": 105,
+    "distrito": "06COIMBRA",
+    "municipio": "ARGANIL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 106,
+    "distrito": "06COIMBRA",
+    "municipio": "CANTANHEDE",
+    "taxa": "0.3800",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 107,
+    "distrito": "06COIMBRA",
+    "municipio": "COIMBRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 108,
+    "distrito": "06COIMBRA",
+    "municipio": "CONDEIXA-A-NOVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 109,
+    "distrito": "06COIMBRA",
+    "municipio": "FIGUEIRA DA FOZ",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 110,
+    "distrito": "06COIMBRA",
+    "municipio": "GOIS",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 111,
+    "distrito": "06COIMBRA",
+    "municipio": "LOUSÃ",
+    "taxa": "0.3900",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 112,
+    "distrito": "06COIMBRA",
+    "municipio": "MIRANDA DO CORVO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 113,
+    "distrito": "06COIMBRA",
+    "municipio": "MONTEMOR-O-VELHO",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 114,
+    "distrito": "06COIMBRA",
+    "municipio": "OLIVEIRA DO HOSPITAL",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 115,
+    "distrito": "06COIMBRA",
+    "municipio": "PAMPILHOSA DA SERRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 116,
+    "distrito": "06COIMBRA",
+    "municipio": "PENACOVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 117,
+    "distrito": "06COIMBRA",
+    "municipio": "PENELA",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 118,
+    "distrito": "06COIMBRA",
+    "municipio": "SOURE",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 119,
+    "distrito": "06COIMBRA",
+    "municipio": "TABUA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 120,
+    "distrito": "06COIMBRA",
+    "municipio": "VILA NOVA DE POIARES",
+    "taxa": "0.3900",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:44.000Z",
+    "updatedAt": "2025-05-23T17:54:44.000Z"
+  },
+  {
+    "id": 121,
+    "distrito": "07EVORA",
+    "municipio": "ALANDROAL",
+    "taxa": "0.4500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 122,
+    "distrito": "07EVORA",
+    "municipio": "ARRAIOLOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 123,
+    "distrito": "07EVORA",
+    "municipio": "BORBA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 124,
+    "distrito": "07EVORA",
+    "municipio": "ESTREMOZ",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 125,
+    "distrito": "07EVORA",
+    "municipio": "EVORA",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 126,
+    "distrito": "07EVORA",
+    "municipio": "MONTEMOR-O-NOVO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 127,
+    "distrito": "07EVORA",
+    "municipio": "MORA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 128,
+    "distrito": "07EVORA",
+    "municipio": "MOURÃO",
+    "taxa": "0.3250",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 129,
+    "distrito": "07EVORA",
+    "municipio": "PORTEL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 130,
+    "distrito": "07EVORA",
+    "municipio": "REDONDO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 131,
+    "distrito": "07EVORA",
+    "municipio": "REGUENGOS DE MONSARAZ",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 132,
+    "distrito": "07EVORA",
+    "municipio": "VENDAS NOVAS",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 133,
+    "distrito": "07EVORA",
+    "municipio": "VIANA DO ALENTEJO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 134,
+    "distrito": "07EVORA",
+    "municipio": "VILA VIÇOSA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:49.000Z",
+    "updatedAt": "2025-05-23T17:54:49.000Z"
+  },
+  {
+    "id": 135,
+    "distrito": "09GUARDA",
+    "municipio": "AGUIAR DA BEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 136,
+    "distrito": "09GUARDA",
+    "municipio": "ALMEIDA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 137,
+    "distrito": "09GUARDA",
+    "municipio": "CELORICO DA BEIRA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 138,
+    "distrito": "09GUARDA",
+    "municipio": "FIGUEIRA DE CASTELO RODRIGO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 139,
+    "distrito": "09GUARDA",
+    "municipio": "FORNOS DE ALGODRES",
+    "taxa": "0.4100",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 140,
+    "distrito": "09GUARDA",
+    "municipio": "GOUVEIA",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 141,
+    "distrito": "09GUARDA",
+    "municipio": "GUARDA",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 142,
+    "distrito": "09GUARDA",
+    "municipio": "MANTEIGAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 143,
+    "distrito": "09GUARDA",
+    "municipio": "MEDA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 144,
+    "distrito": "09GUARDA",
+    "municipio": "PINHEL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 145,
+    "distrito": "09GUARDA",
+    "municipio": "SABUGAL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 146,
+    "distrito": "09GUARDA",
+    "municipio": "SEIA",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 147,
+    "distrito": "09GUARDA",
+    "municipio": "TRANCOSO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 148,
+    "distrito": "09GUARDA",
+    "municipio": "VILA NOVA DE FOZ COA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:54:54.000Z",
+    "updatedAt": "2025-05-23T17:54:54.000Z"
+  },
+  {
+    "id": 149,
+    "distrito": "10LEIRIA",
+    "municipio": "ALCOBAÇA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 150,
+    "distrito": "10LEIRIA",
+    "municipio": "ALVAIAZERE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 151,
+    "distrito": "10LEIRIA",
+    "municipio": "ANSIÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 152,
+    "distrito": "10LEIRIA",
+    "municipio": "BATALHA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 153,
+    "distrito": "10LEIRIA",
+    "municipio": "BOMBARRAL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 154,
+    "distrito": "10LEIRIA",
+    "municipio": "CALDAS DA RAINHA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 155,
+    "distrito": "10LEIRIA",
+    "municipio": "CASTANHEIRA DE PERA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 156,
+    "distrito": "10LEIRIA",
+    "municipio": "FIGUEIRO DOS VINHOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 157,
+    "distrito": "10LEIRIA",
+    "municipio": "LEIRIA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 158,
+    "distrito": "10LEIRIA",
+    "municipio": "MARINHA GRANDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 159,
+    "distrito": "10LEIRIA",
+    "municipio": "NAZARE",
+    "taxa": "0.4500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 160,
+    "distrito": "10LEIRIA",
+    "municipio": "OBIDOS",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 161,
+    "distrito": "10LEIRIA",
+    "municipio": "PEDROGÃO GRANDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 162,
+    "distrito": "10LEIRIA",
+    "municipio": "PENICHE",
+    "taxa": "0.3050",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 163,
+    "distrito": "10LEIRIA",
+    "municipio": "POMBAL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 164,
+    "distrito": "10LEIRIA",
+    "municipio": "PORTO DE MOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:00.000Z",
+    "updatedAt": "2025-05-23T17:55:00.000Z"
+  },
+  {
+    "id": 165,
+    "distrito": "11LISBOA",
+    "municipio": "ALENQUER",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 166,
+    "distrito": "11LISBOA",
+    "municipio": "AMADORA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 167,
+    "distrito": "11LISBOA",
+    "municipio": "ARRUDA DOS VINHOS",
+    "taxa": "0.3650",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 168,
+    "distrito": "11LISBOA",
+    "municipio": "AZAMBUJA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 169,
+    "distrito": "11LISBOA",
+    "municipio": "CADAVAL",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 170,
+    "distrito": "11LISBOA",
+    "municipio": "CASCAIS",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 171,
+    "distrito": "11LISBOA",
+    "municipio": "LISBOA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 172,
+    "distrito": "11LISBOA",
+    "municipio": "LOURES",
+    "taxa": "0.3620",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 173,
+    "distrito": "11LISBOA",
+    "municipio": "LOURINHÃ",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 174,
+    "distrito": "11LISBOA",
+    "municipio": "MAFRA",
+    "taxa": "0.4500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 175,
+    "distrito": "11LISBOA",
+    "municipio": "ODIVELAS",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 176,
+    "distrito": "11LISBOA",
+    "municipio": "OEIRAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 177,
+    "distrito": "11LISBOA",
+    "municipio": "SINTRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 178,
+    "distrito": "11LISBOA",
+    "municipio": "SOBRAL DE MONTE AGRAÇO",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 179,
+    "distrito": "11LISBOA",
+    "municipio": "TORRES VEDRAS",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 180,
+    "distrito": "11LISBOA",
+    "municipio": "VILA FRANCA DE XIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:04.000Z",
+    "updatedAt": "2025-05-23T17:55:04.000Z"
+  },
+  {
+    "id": 26,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "LAGOA (AÇORES)",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 27,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "NORDESTE",
+    "taxa": "0.4250",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 28,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "PONTA DELGADA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 29,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "POVOAÇÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 30,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "RIBEIRA GRANDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 31,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "VILA DO PORTO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 32,
+    "distrito": "21PONTA DELGADA",
+    "municipio": "VILA FRANCA DO CAMPO",
+    "taxa": "0.4250",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:52:57.000Z",
+    "updatedAt": "2025-05-23T17:52:57.000Z"
+  },
+  {
+    "id": 181,
+    "distrito": "12PORTALEGRE",
+    "municipio": "ALTER DO CHÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 182,
+    "distrito": "12PORTALEGRE",
+    "municipio": "ARRONCHES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 183,
+    "distrito": "12PORTALEGRE",
+    "municipio": "AVIS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 184,
+    "distrito": "12PORTALEGRE",
+    "municipio": "CAMPO MAIOR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 185,
+    "distrito": "12PORTALEGRE",
+    "municipio": "CASTELO DE VIDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 186,
+    "distrito": "12PORTALEGRE",
+    "municipio": "CRATO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 187,
+    "distrito": "12PORTALEGRE",
+    "municipio": "ELVAS",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 188,
+    "distrito": "12PORTALEGRE",
+    "municipio": "FRONTEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 189,
+    "distrito": "12PORTALEGRE",
+    "municipio": "GAVIÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 190,
+    "distrito": "12PORTALEGRE",
+    "municipio": "MARVÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 191,
+    "distrito": "12PORTALEGRE",
+    "municipio": "MONFORTE",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 192,
+    "distrito": "12PORTALEGRE",
+    "municipio": "NISA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 193,
+    "distrito": "12PORTALEGRE",
+    "municipio": "PONTE DE SOR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 194,
+    "distrito": "12PORTALEGRE",
+    "municipio": "PORTALEGRE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 195,
+    "distrito": "12PORTALEGRE",
+    "municipio": "SOUSEL",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:11.000Z",
+    "updatedAt": "2025-05-23T17:55:11.000Z"
+  },
+  {
+    "id": 196,
+    "distrito": "13PORTO",
+    "municipio": "AMARANTE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 197,
+    "distrito": "13PORTO",
+    "municipio": "BAIÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 198,
+    "distrito": "13PORTO",
+    "municipio": "FELGUEIRAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 199,
+    "distrito": "13PORTO",
+    "municipio": "LOUSADA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 200,
+    "distrito": "13PORTO",
+    "municipio": "MAIA",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 201,
+    "distrito": "13PORTO",
+    "municipio": "MARCO DE CANAVESES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 202,
+    "distrito": "13PORTO",
+    "municipio": "MATOSINHOS",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 203,
+    "distrito": "13PORTO",
+    "municipio": "PAÇOS DE FERREIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 204,
+    "distrito": "13PORTO",
+    "municipio": "PAREDES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 205,
+    "distrito": "13PORTO",
+    "municipio": "PENAFIEL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 206,
+    "distrito": "13PORTO",
+    "municipio": "PORTO",
+    "taxa": "0.3240",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 207,
+    "distrito": "13PORTO",
+    "municipio": "POVOA DE VARZIM",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 208,
+    "distrito": "13PORTO",
+    "municipio": "SANTO TIRSO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 209,
+    "distrito": "13PORTO",
+    "municipio": "TROFA",
+    "taxa": "0.3900",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 210,
+    "distrito": "13PORTO",
+    "municipio": "VALONGO",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 211,
+    "distrito": "13PORTO",
+    "municipio": "VILA DO CONDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 212,
+    "distrito": "13PORTO",
+    "municipio": "VILA NOVA DE GAIA",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:15.000Z",
+    "updatedAt": "2025-05-23T17:55:15.000Z"
+  },
+  {
+    "id": 213,
+    "distrito": "14SANTAREM",
+    "municipio": "ABRANTES",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 214,
+    "distrito": "14SANTAREM",
+    "municipio": "ALCANENA",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 215,
+    "distrito": "14SANTAREM",
+    "municipio": "ALMEIRIM",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 216,
+    "distrito": "14SANTAREM",
+    "municipio": "ALPIARÇA",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 217,
+    "distrito": "14SANTAREM",
+    "municipio": "BENAVENTE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 218,
+    "distrito": "14SANTAREM",
+    "municipio": "CARTAXO",
+    "taxa": "0.4500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 219,
+    "distrito": "14SANTAREM",
+    "municipio": "CHAMUSCA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 220,
+    "distrito": "14SANTAREM",
+    "municipio": "CONSTANCIA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 221,
+    "distrito": "14SANTAREM",
+    "municipio": "CORUCHE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 222,
+    "distrito": "14SANTAREM",
+    "municipio": "ENTRONCAMENTO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 223,
+    "distrito": "14SANTAREM",
+    "municipio": "GOLEGÃ",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 224,
+    "distrito": "14SANTAREM",
+    "municipio": "MAÇÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 225,
+    "distrito": "14SANTAREM",
+    "municipio": "OUREM",
+    "taxa": "0.3100",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 226,
+    "distrito": "14SANTAREM",
+    "municipio": "RIO MAIOR",
+    "taxa": "0.3800",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 227,
+    "distrito": "14SANTAREM",
+    "municipio": "SALVATERRA DE MAGOS",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 228,
+    "distrito": "14SANTAREM",
+    "municipio": "SANTAREM",
+    "taxa": "0.3680",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 229,
+    "distrito": "14SANTAREM",
+    "municipio": "SARDOAL",
+    "taxa": "0.3250",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 230,
+    "distrito": "14SANTAREM",
+    "municipio": "TOMAR",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 231,
+    "distrito": "14SANTAREM",
+    "municipio": "TORRES NOVAS",
+    "taxa": "0.3600",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 232,
+    "distrito": "14SANTAREM",
+    "municipio": "VILA NOVA DA BARQUINHA",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:20.000Z",
+    "updatedAt": "2025-05-23T17:55:20.000Z"
+  },
+  {
+    "id": 233,
+    "distrito": "15SETUBAL",
+    "municipio": "ALCACER DO SAL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 234,
+    "distrito": "15SETUBAL",
+    "municipio": "ALCOCHETE",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 235,
+    "distrito": "15SETUBAL",
+    "municipio": "ALMADA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 236,
+    "distrito": "15SETUBAL",
+    "municipio": "BARREIRO",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 237,
+    "distrito": "15SETUBAL",
+    "municipio": "GRANDOLA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 238,
+    "distrito": "15SETUBAL",
+    "municipio": "MOITA",
+    "taxa": "0.3650",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 239,
+    "distrito": "15SETUBAL",
+    "municipio": "MONTIJO",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 240,
+    "distrito": "15SETUBAL",
+    "municipio": "PALMELA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 241,
+    "distrito": "15SETUBAL",
+    "municipio": "SANTIAGO DO CACEM",
+    "taxa": "0.3100",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 242,
+    "distrito": "15SETUBAL",
+    "municipio": "SEIXAL",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 243,
+    "distrito": "15SETUBAL",
+    "municipio": "SESIMBRA",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 244,
+    "distrito": "15SETUBAL",
+    "municipio": "SETUBAL",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 245,
+    "distrito": "15SETUBAL",
+    "municipio": "SINES",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:25.000Z",
+    "updatedAt": "2025-05-23T17:55:25.000Z"
+  },
+  {
+    "id": 33,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "ARCOS DE VALDEVEZ",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 34,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "CAMINHA",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 35,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "MELGAÇO",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 36,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "MONÇÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 37,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "PAREDES DE COURA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 38,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "PONTE DA BARCA",
+    "taxa": "0.3400",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 39,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "PONTE DE LIMA",
+    "taxa": "0.3200",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 40,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "VALENÇA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 41,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "VIANA DO CASTELO",
+    "taxa": "0.3500",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 42,
+    "distrito": "16VIANA DO CASTELO",
+    "municipio": "VILA NOVA DE CERVEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:18.000Z",
+    "updatedAt": "2025-05-23T17:53:18.000Z"
+  },
+  {
+    "id": 1,
+    "distrito": "17VILA REAL",
+    "municipio": "ALIJO",
+    "taxa": "0.3300",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 2,
+    "distrito": "17VILA REAL",
+    "municipio": "BOTICAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 3,
+    "distrito": "17VILA REAL",
+    "municipio": "CHAVES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 4,
+    "distrito": "17VILA REAL",
+    "municipio": "MESÃO FRIO",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 5,
+    "distrito": "17VILA REAL",
+    "municipio": "MONDIM DE BASTO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 6,
+    "distrito": "17VILA REAL",
+    "municipio": "MONTALEGRE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 7,
+    "distrito": "17VILA REAL",
+    "municipio": "MURÇA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 8,
+    "distrito": "17VILA REAL",
+    "municipio": "PESO DA REGUA",
+    "taxa": "0.3700",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 9,
+    "distrito": "17VILA REAL",
+    "municipio": "RIBEIRA DE PENA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 10,
+    "distrito": "17VILA REAL",
+    "municipio": "SABROSA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 11,
+    "distrito": "17VILA REAL",
+    "municipio": "SANTA MARTA DE PENAGUIÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 12,
+    "distrito": "17VILA REAL",
+    "municipio": "VALPAÇOS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 13,
+    "distrito": "17VILA REAL",
+    "municipio": "VILA POUCA DE AGUIAR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 14,
+    "distrito": "17VILA REAL",
+    "municipio": "VILA REAL",
+    "taxa": "0.3850",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:51:43.000Z",
+    "updatedAt": "2025-05-23T17:51:43.000Z"
+  },
+  {
+    "id": 246,
+    "distrito": "18VISEU",
+    "municipio": "ARMAMAR",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 247,
+    "distrito": "18VISEU",
+    "municipio": "CARREGAL DO SAL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 248,
+    "distrito": "18VISEU",
+    "municipio": "CASTRO DAIRE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 249,
+    "distrito": "18VISEU",
+    "municipio": "CINFÃES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 250,
+    "distrito": "18VISEU",
+    "municipio": "LAMEGO",
+    "taxa": "0.3650",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 251,
+    "distrito": "18VISEU",
+    "municipio": "MANGUALDE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 252,
+    "distrito": "18VISEU",
+    "municipio": "MOIMENTA DA BEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 253,
+    "distrito": "18VISEU",
+    "municipio": "MORTAGUA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 254,
+    "distrito": "18VISEU",
+    "municipio": "NELAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 255,
+    "distrito": "18VISEU",
+    "municipio": "OLIVEIRA DE FRADES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 256,
+    "distrito": "18VISEU",
+    "municipio": "PENALVA DO CASTELO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 257,
+    "distrito": "18VISEU",
+    "municipio": "PENEDONO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 258,
+    "distrito": "18VISEU",
+    "municipio": "RESENDE",
+    "taxa": "0.3750",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 259,
+    "distrito": "18VISEU",
+    "municipio": "S. JOÃO DA PESQUEIRA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 260,
+    "distrito": "18VISEU",
+    "municipio": "S. PEDRO DO SUL",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 261,
+    "distrito": "18VISEU",
+    "municipio": "SANTA COMBA DÃO",
+    "taxa": "0.3900",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 262,
+    "distrito": "18VISEU",
+    "municipio": "SATÃO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 263,
+    "distrito": "18VISEU",
+    "municipio": "SERNANCELHE",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 264,
+    "distrito": "18VISEU",
+    "municipio": "TABUAÇO",
+    "taxa": "0.4000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 265,
+    "distrito": "18VISEU",
+    "municipio": "TAROUCA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 266,
+    "distrito": "18VISEU",
+    "municipio": "TONDELA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 267,
+    "distrito": "18VISEU",
+    "municipio": "VILA NOVA DE PAIVA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 268,
+    "distrito": "18VISEU",
+    "municipio": "VISEU",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 269,
+    "distrito": "18VISEU",
+    "municipio": "VOUZELA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:31.000Z",
+    "updatedAt": "2025-05-23T17:55:31.000Z"
+  },
+  {
+    "id": 43,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "ANGRA DO HEROISMO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 44,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "CALHETA (AÇORES)",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 45,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "SANTA CRUZ DA GRACIOSA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 46,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "VELAS",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 47,
+    "distrito": "19ANGRA DO HEROISMO",
+    "municipio": "VILA PRAIA DA VITORIA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:53:56.000Z",
+    "updatedAt": "2025-05-23T17:53:56.000Z"
+  },
+  {
+    "id": 270,
+    "distrito": "20HORTA",
+    "municipio": "CORVO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  },
+  {
+    "id": 271,
+    "distrito": "20HORTA",
+    "municipio": "HORTA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  },
+  {
+    "id": 272,
+    "distrito": "20HORTA",
+    "municipio": "LAJES DAS FLORES",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  },
+  {
+    "id": 273,
+    "distrito": "20HORTA",
+    "municipio": "LAJES DO PICO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  },
+  {
+    "id": 274,
+    "distrito": "20HORTA",
+    "municipio": "MADALENA",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  },
+  {
+    "id": 275,
+    "distrito": "20HORTA",
+    "municipio": "S. ROQUE DO PICO",
+    "taxa": "0.3000",
+    "ano": 2024,
+    "createdAt": "2025-05-23T17:55:38.000Z",
+    "updatedAt": "2025-05-23T17:55:38.000Z"
+  }
+]
