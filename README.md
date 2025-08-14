@@ -1,4 +1,4 @@
-# amotiza\_mais
+# Amortiza\_Mais
 
 > Housing loan simulation and management application with automatic Euribor rate integration, amortization calculations, and cost estimations (insurance, fees, property tax, stamp duty).
 
