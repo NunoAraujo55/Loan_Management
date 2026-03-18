@@ -122,6 +122,12 @@ List<AmortEntry> simulateLoan({
         remainingTerm = (nume / deno).floor();
       } else {
         remainingTerm = totalMonths - month;
+        currentPMT = calculatePMT(
+          principal: balance,
+          annualRate: annualRate,
+          totalMonths: remainingTerm,
+        );
+        lastAppliedRate = annualRate;
       }
     }
 

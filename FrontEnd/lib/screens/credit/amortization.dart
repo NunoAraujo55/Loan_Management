@@ -1,4 +1,3 @@
-import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_amortiza/controllers/contract_values_controller.dart';
 import 'package:flutter_amortiza/models/loan_model.dart';
@@ -40,123 +39,6 @@ class _AmortizationState extends State<Amortization> {
   //double _montanteSelecionado = 20000.0;
 
   bool reduceTerm = true;
-
-  /// Simula o cronograma de amortização, opcionalmente com pagamentos extra.
-  /// Se [reduceTerm]=true, recalcula o prazo restante; senão, recalcula a prestação.
-  List<AmortEntry> simulateLoan({
-    required double principal,
-    required int totalMonths,
-    required DateTime startDate,
-    required List<ContractValues> rateHistory,
-    required double? spread,
-    required double? tan,
-    List<ExtraPayment> extraPayments = const [],
-    bool reduceTerm = false,
-  }) {
-    double balance = principal;
-    int month = 1;
-    int remainingTerm = totalMonths;
-    DateTime currentDate = startDate;
-    final schedule = <AmortEntry>[];
-    double? fixedPMT;
-    double? lastAnnualRate;
-
-    while (balance > 0.01 && month <= 1000) {
-      // 1. Determine annual rate
-      double annualRate;
-      if (tan != null && tan != 0) {
-        annualRate = tan;
-      } else {
-        final matchedRate = rateHistory.firstWhere(
-          (r) => !currentDate.isBefore(r.start) && currentDate.isBefore(r.end),
-          orElse: () => rateHistory.last,
-        );
-
-        print(
-            '📅 Mês $month | Data: ${DateFormat('yyyy-MM-dd').format(currentDate)} | '
-            'Matched Rate Period: ${DateFormat('yyyy-MM-dd').format(matchedRate.start)} → '
-            '${DateFormat('yyyy-MM-dd').format(matchedRate.end)} | '
-            'Rate Value: ${matchedRate.value.toStringAsFixed(2)}% | '
-            'Spread: ${(widget.spread ?? 0).toStringAsFixed(2)}%');
-        annualRate = matchedRate.value + (widget.spread ?? 0);
-      }
-
-      final double monthlyRate = (annualRate / 100) / 12;
-
-      // 2. Get extra payment
-      final extra = extraPayments
-          .firstWhere((e) => e.month == month,
-              orElse: () => ExtraPayment(month: month, amount: 0.0))
-          .amount;
-
-      // 3. Calculate PMT
-      double pmt;
-      bool rateChanged = lastAnnualRate == null ||
-          (annualRate - lastAnnualRate).abs() > 0.0001;
-      lastAnnualRate = annualRate;
-      if (reduceTerm) {
-        if (month == 1 || rateChanged) {
-          // Só calcular uma vez no início
-          fixedPMT = calculatePMT(
-            principal: balance,
-            annualRate: annualRate,
-            totalMonths: remainingTerm,
-          );
-          print(
-              "📅 Mês $month | PMT calculado (inicial): €${fixedPMT.toStringAsFixed(2)}");
-        } else {
-          print(
-              "📅 Mês $month | PMT mantido: €${fixedPMT?.toStringAsFixed(2) ?? '-'}");
-        }
-        pmt = fixedPMT!;
-      } else {
-        final monthsLeft = remainingTerm - (month - 1);
-        pmt = calculatePMT(
-          principal: balance,
-          annualRate: annualRate,
-          totalMonths: monthsLeft,
-        );
-        print(
-            "📅 Mês $month | PMT calculado (prazo fixo): €${pmt.toStringAsFixed(2)}");
-      }
-
-      final interest = balance * monthlyRate;
-      final principalPay = min(pmt - interest, balance);
-      balance = balance - principalPay - extra;
-
-// 4. Adjust
-      if (extra > 0 && balance > 0) {
-        if (reduceTerm) {
-          final nume = log(pmt / (pmt - balance * monthlyRate));
-          final deno = log(1 + monthlyRate);
-          remainingTerm = (nume / deno).ceil();
-        } else {
-          // Recalcula a nova prestação com saldo atualizado, mantendo prazo
-          fixedPMT = calculatePMT(
-            principal: balance,
-            annualRate: annualRate,
-            totalMonths: remainingTerm - month,
-          );
-        }
-      }
-
-      schedule.add(AmortEntry(
-        month: month,
-        payment: pmt,
-        interest: interest,
-        principal: principalPay,
-        extraPayment: extra,
-        balance: max(balance, 0),
-        appliedRate: annualRate,
-      ));
-
-      month++;
-      currentDate =
-          DateTime(currentDate.year, currentDate.month + 1, currentDate.day);
-    }
-
-    return schedule;
-  }
 
   int? _computeAmortMonth({
     required DateTime? selectedData,
@@ -593,10 +475,10 @@ class _AmortizationState extends State<Amortization> {
                           final schedule = simulateLoan(
                             principal: principal,
                             totalMonths: totalMonths,
-                            startDate: widget.selectedLoan.startingDate!,
-                            rateHistory: widget.rateHistory,
-                            spread: widget.spread,
-                            tan: widget.tan,
+                            startingDate: widget.selectedLoan.startingDate!,
+                            contractValues: widget.rateHistory,
+                            spread: (widget.spread ?? 0).toDouble(),
+                            fallbackTan: (widget.tan ?? 0).toDouble(),
                             extraPayments: extras,
                             reduceTerm: reduceTerm,
                           );
@@ -604,10 +486,10 @@ class _AmortizationState extends State<Amortization> {
                           final originalSchedule = simulateLoan(
                             principal: principal,
                             totalMonths: totalMonths,
-                            startDate: widget.selectedLoan.startingDate!,
-                            rateHistory: widget.rateHistory,
-                            spread: widget.spread,
-                            tan: widget.tan,
+                            startingDate: widget.selectedLoan.startingDate!,
+                            contractValues: widget.rateHistory,
+                            spread: (widget.spread ?? 0).toDouble(),
+                            fallbackTan: (widget.tan ?? 0).toDouble(),
                             extraPayments: [],
                             reduceTerm: reduceTerm,
                           );
