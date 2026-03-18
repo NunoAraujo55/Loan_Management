@@ -1,6 +1,3 @@
-import 'dart:math';
-
-import 'package:awesome_snackbar_content/awesome_snackbar_content.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -15,9 +12,10 @@ import 'package:flutter_amortiza/screens/credit/widgets/cards/pagamentos_overvie
 import 'package:flutter_amortiza/screens/credit/widgets/cards/seguros_associados.dart';
 import 'package:flutter_amortiza/screens/credit/widgets/cards/taxa_de_juro.dart';
 import 'package:flutter_amortiza/screens/home_screen/home_screen.dart';
+import 'package:flutter_amortiza/utils/loan_calculations.dart';
 import 'package:get_it/get_it.dart';
 import 'package:intl/intl.dart';
-import 'package:top_snackbar_flutter/top_snack_bar.dart';
+
 
 class CreditScreen extends StatefulWidget {
   final Loan selectedLoan;
@@ -36,7 +34,6 @@ class _CreditScreenState extends State<CreditScreen> {
   double _tan = 0;
   final Dio dio = GetIt.instance<Dio>();
   late double _nextPmt;
-  bool _isLoading = true;
   final TextEditingController _searchController = TextEditingController();
   String _searchTerm = '';
   late List<AmortEntry> _filteredSchedule;
@@ -130,19 +127,6 @@ class _CreditScreenState extends State<CreditScreen> {
     }
   }
 
-  
-  DateTime addMonths(DateTime from, int months) {
-    // compute the raw year/month offset
-    final int year = from.year + (from.month - 1 + months) ~/ 12;
-    final int month = (from.month - 1 + months) % 12 + 1;
-    // clamp the day so we don’t overflow past the end of the month
-    final int day = min(
-      from.day,
-      DateTime(year, month + 1, 0).day,
-    );
-    return DateTime(year, month, day);
-  }
-
   void _filterSchedule() {
     setState(() {
       _filteredSchedule = widget.schedule.where((entry) {
@@ -169,16 +153,6 @@ class _CreditScreenState extends State<CreditScreen> {
             matchesExactDate;
       }).toList();
     });
-  }
-
-  int monthsBetween(DateTime start, DateTime end) {
-    int months = (end.year - start.year) * 12 + (end.month - start.month);
-
-    if (end.day < start.day) {
-      months -= 1; 
-    }
-
-    return months;
   }
 
   @override
@@ -216,7 +190,7 @@ class _CreditScreenState extends State<CreditScreen> {
     final today = DateTime.now();*/
 
     final double currentEuribor = widget.rates.isNotEmpty ? widget.rates.last.value : 0.0;
-    final bool hasRates = widget.rates.isNotEmpty;
+
 
     
     if (widget.rates.isNotEmpty) {

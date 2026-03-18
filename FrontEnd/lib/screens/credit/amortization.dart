@@ -4,6 +4,7 @@ import 'package:flutter_amortiza/controllers/contract_values_controller.dart';
 import 'package:flutter_amortiza/models/loan_model.dart';
 import 'package:flutter_amortiza/screens/credit/amortization_plan.dart';
 import 'package:flutter_amortiza/screens/credit/widgets/input/input_field_widget.dart';
+import 'package:flutter_amortiza/utils/loan_calculations.dart';
 import 'package:intl/intl.dart';
 
 class Amortization extends StatefulWidget {
@@ -39,17 +40,6 @@ class _AmortizationState extends State<Amortization> {
   //double _montanteSelecionado = 20000.0;
 
   bool reduceTerm = true;
-
-  double calculatePMT({
-    required double principal,
-    required double annualRate,
-    required int totalMonths,
-  }) {
-    final double i = (annualRate / 100) / 12;
-    final double numerator = principal * i * pow(1 + i, totalMonths);
-    final double denominator = pow(1 + i, totalMonths) - 1;
-    return numerator / denominator;
-  }
 
   /// Simula o cronograma de amortização, opcionalmente com pagamentos extra.
   /// Se [reduceTerm]=true, recalcula o prazo restante; senão, recalcula a prestação.

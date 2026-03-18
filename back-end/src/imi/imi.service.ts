@@ -4,7 +4,7 @@ import * as cheerio from 'cheerio';
 import { InjectModel } from '@nestjs/sequelize';
 import { Imi } from './imi.model';
 import { InferCreationAttributes } from 'sequelize';
-import * as iconv from 'iconv-lite';
+
 
 @Injectable()
 export class ImiService {
@@ -18,9 +18,8 @@ export class ImiService {
         const url = `https://www.portaldasfinancas.gov.pt/pt/main.jsp?body=/imi/consultarTaxasIMI.jsp&ano=${ano}&distrito=${encodeURIComponent(distrito)}`;
         console.log(url);
         const resp = await axios.get(url, { responseType: 'arraybuffer' });
-        const html = iconv.decode(resp.data, 'latin1');
+        const html = Buffer.from(resp.data).toString('latin1');
         const $ = cheerio.load(html);
-
         const results: InferCreationAttributes<Imi>[] = [];
 
         $('table.iT tbody tr').each((index, element) => {

@@ -8,6 +8,7 @@ import 'package:flutter_amortiza/models/user_model.dart';
 import 'package:flutter_amortiza/screens/credit/widgets/input/input_field_widget.dart';
 import 'package:flutter_amortiza/screens/home_screen/home_screen.dart';
 import 'package:flutter_amortiza/screens/settings/settings.dart';
+import 'package:flutter_amortiza/utils/loan_calculations.dart';
 import 'package:get_it/get_it.dart';
 import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
@@ -150,17 +151,6 @@ class _CreateCreditScreenState extends State<CreateCreditScreen> {
       );
       return List.filled(dates.length, 0.0);
     }
-  }
-
-  DateTime addMonths(DateTime date, int monthsToAdd) {
-    final newYear = date.year + ((date.month + monthsToAdd - 1) ~/ 12);
-    final newMonth = ((date.month + monthsToAdd - 1) % 12) + 1;
-
-    final day = date.day;
-    final lastDayOfNewMonth = DateTime(newYear, newMonth + 1, 0).day;
-    final newDay = day > lastDayOfNewMonth ? lastDayOfNewMonth : day;
-
-    return DateTime(newYear, newMonth, newDay);
   }
 
   int _euriborMonths(String? sel) {
