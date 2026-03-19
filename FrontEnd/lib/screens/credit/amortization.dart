@@ -8,8 +8,8 @@ import 'package:intl/intl.dart';
 
 class Amortization extends StatefulWidget {
   final Loan selectedLoan;
-  final spread;
-  final tan;
+  final double? spread;
+  final double? tan;
   final List<ContractValues> rateHistory;
 
   const Amortization(
@@ -93,11 +93,6 @@ class _AmortizationState extends State<Amortization> {
       visibleSE = true;
     } else {
       visibleTAN = true;
-    }
-    print(widget.spread);
-    print(widget.tan);
-    for (int i = 0; i < widget.rateHistory.length; i++) {
-      print(widget.rateHistory[i]);
     }
     return Scaffold(
       extendBodyBehindAppBar: true,

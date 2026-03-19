@@ -1,8 +1,7 @@
-import { ForbiddenException, Injectable } from "@nestjs/common";
+import { ForbiddenException, Injectable, NotFoundException } from "@nestjs/common";
 import { InjectModel } from "@nestjs/sequelize";
 import { Loan } from "./loan.model";
 import { LoanDto } from "./dto";
-import { spread } from "axios";
 import { Insurance } from "src/insurance/insurance.model";
 
 @Injectable()
@@ -14,8 +13,6 @@ export class LoanService {
 
   async addLoan(dto: LoanDto) {
     try {
-
-      console.log('DTO:', dto);
       const loan = await this.loanModel.create({
         DownPayment: dto.DownPayment,
         CreditTerm: dto.CreditTerm,
@@ -27,10 +24,8 @@ export class LoanService {
         insurances: dto.insurances
       } as any, { include: [Insurance] });
 
-
       return loan;
     } catch (e) {
-      console.error('Sequelize Error:', e);
       throw new ForbiddenException('Error creating the loan');
     }
   }
@@ -47,32 +42,25 @@ export class LoanService {
       });
       return loans;
     } catch (error) {
-      console.error('Error fetching loans:', error);
       throw new ForbiddenException('Error fetching loans');
     }
   }
 
-  async fetchById(loanId: number){
-
+  async fetchById(loanId: number) {
+    const loan = await this.loanModel.findByPk(loanId);
+    if (!loan) {
+      throw new NotFoundException('Loan not found');
+    }
+    return loan;
   }
 
-async removeLoanById(loanId: number): Promise<{ message: string }> {
-  try {
+  async removeLoanById(loanId: number): Promise<{ message: string }> {
     const loan = await this.loanModel.findByPk(loanId);
-
     if (!loan) {
-      throw new ForbiddenException('Loan not found');
+      throw new NotFoundException('Loan not found');
     }
 
     await loan.destroy();
-
     return { message: 'Loan successfully deleted' };
-  } catch (error) {
-    console.error('Error deleting loan:', error);
-    throw new ForbiddenException('Error deleting the loan');
-    
   }
-}
-
-
 }

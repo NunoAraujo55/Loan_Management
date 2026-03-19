@@ -1,5 +1,5 @@
 import { Type } from 'class-transformer';
-import { IsArray, IsDate, IsNotEmpty, IsNumber, IsString, ValidateNested } from 'class-validator';
+import { IsArray, IsDate, IsNotEmpty, IsNumber, IsOptional, IsString, ValidateNested } from 'class-validator';
 import { AllowNull } from 'sequelize-typescript';
 import { InsuranceDto } from 'src/insurance/dto/insurance.dto';
 
@@ -16,8 +16,9 @@ export class LoanDto {
   @IsNotEmpty()
   userId: number;
 
-  //fix this
-  bankId: number;
+  @IsOptional()
+  @IsNumber()
+  bankId?: number;
 
   @IsNumber()
   @IsNotEmpty()

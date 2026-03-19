@@ -28,7 +28,7 @@ class _SignInScreenState extends State<SignInScreen> {
 
   //sign in function that stores the tokens
   Future<void> _signIn() async {
-    if (emailController == "" || passwordController.text == "") {
+    if (emailController.text.isEmpty || passwordController.text.isEmpty) {
       showTopSnackBar(
         Overlay.of(context),
         AwesomeSnackbarContent(
@@ -38,6 +38,7 @@ class _SignInScreenState extends State<SignInScreen> {
         ),
         displayDuration: Duration(seconds: 3),
       );
+      return;
     }
     try {
       final tokensresponse = await dio.post('auth/signin', data: {
@@ -46,24 +47,18 @@ class _SignInScreenState extends State<SignInScreen> {
       });
 
       if (tokensresponse.statusCode == 200) {
-        //get the tokens from the request
+        //get the tokens from the request and store them immediately
         final accessToken = tokensresponse.data['access_token'];
         final refreshToken = tokensresponse.data['refresh_token'];
+        await AuthService.instance.storeTokens(accessToken, refreshToken);
 
-        //make a request to the /users/me
+        //make a request to the /users/me (token is now auto-attached by interceptor)
         try {
-          final userResponse = await dio.get('users/me',
-              options: Options(headers: {
-                //passing the access token
-                'Authorization': 'Bearer $accessToken',
-              }));
+          final userResponse = await dio.get('users/me');
           if (userResponse.statusCode == 200) {
-            print('User data: ${userResponse.data}');
             final user = User.fromJson(userResponse.data);
             Provider.of<UserController>(context, listen: false).setUser(user);
-            
           } else {
-            print('Request failed with status: ${userResponse.statusCode}');
             return;
           }
         } catch (e) {
@@ -71,7 +66,7 @@ class _SignInScreenState extends State<SignInScreen> {
             Overlay.of(context),
             AwesomeSnackbarContent(
               title: 'Ops!',
-              message: 'Erro 2',
+              message: 'Não foi possível obter os dados do utilizador',
               contentType: ContentType.failure,
             ),
             displayDuration: Duration(seconds: 3),
@@ -79,8 +74,6 @@ class _SignInScreenState extends State<SignInScreen> {
           return;
         }
 
-        //store the tokens securly
-        await AuthService.instance.storeTokens(accessToken, refreshToken);
         //go to the home screen
         Navigator.push(
             context, MaterialPageRoute(builder: (context) => HomeScreen()));
@@ -102,7 +95,7 @@ class _SignInScreenState extends State<SignInScreen> {
         Overlay.of(context),
         AwesomeSnackbarContent(
           title: 'Ops!',
-          message: 'ultimo erro',
+          message: 'Erro de conexão. Tente novamente.',
           contentType: ContentType.failure,
         ),
         displayDuration: Duration(seconds: 3),

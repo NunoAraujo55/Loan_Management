@@ -67,16 +67,14 @@ class _CreditScreenState extends State<CreditScreen> {
   Future<void> _removeLoan() async {
     try {
       if (widget.selectedLoan.id != null) {
-        final response = await dio.post(
+        final response = await dio.delete(
           'credit/remove',
           queryParameters: {
             'loanId': widget.selectedLoan.id,
           },
         );
-        print('Response status: ${response.statusCode}');
-        print('Response data: ${response.data}');
 
-        if (response.statusCode == 201) {
+        if (response.statusCode == 200) {
           showCupertinoDialog(
             context: context,
             builder: (context) => CupertinoAlertDialog(

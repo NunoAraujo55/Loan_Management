@@ -204,7 +204,8 @@ class _CreditSimulationState extends State<CreditSimulation> {
     }
 
     final double salarioSemSespesas = salario - despesas;
-    final double prestacaoMensal = calcLoan();
+    // Use the already-computed prestacao instead of calling calcLoan() again
+    final double prestacaoMensal = prestacao;
 
     final double taxadeesforco = (prestacaoMensal / salarioSemSespesas) * 100;
 
@@ -426,23 +427,51 @@ class _CreditSimulationState extends State<CreditSimulation> {
                 children: [
                   TextButton(
                     onPressed: () async {
-                      final term = _selectedEuribor!.replaceAll(' ', '');
-                      final rate = await getEuriborValue(term);
-
-                      setState(() {
-                        euriborRate = rate;
-                        showDetails = true;
-                        prestacao = calcLoan();
-                        taxaDeEsforco = calcTaxaDeEsforco();
-                        montanteContratado = calcmontanteContratado();
-                      });
-                      WidgetsBinding.instance.addPostFrameCallback((_) {
-                        Scrollable.ensureVisible(
-                          _detailsKey.currentContext!,
-                          duration: const Duration(milliseconds: 500),
-                          curve: Curves.easeInOut,
+                      if (_selectedEuribor == null) {
+                        showTopSnackBar(
+                          Overlay.of(context),
+                          AwesomeSnackbarContent(
+                            title: 'Ops!',
+                            message: 'Selecione o tipo de Euribor',
+                            contentType: ContentType.failure,
+                          ),
+                          displayDuration: Duration(seconds: 3),
                         );
-                      });
+                        return;
+                      }
+                      try {
+                        final term = _selectedEuribor!.replaceAll(' ', '');
+                        final rate = await getEuriborValue(term);
+
+                        setState(() {
+                          euriborRate = rate;
+                          prestacao = calcLoan();
+                          taxaDeEsforco = calcTaxaDeEsforco();
+                          montanteContratado = calcmontanteContratado();
+                          showDetails = prestacao > 0;
+                        });
+                        if (showDetails) {
+                          WidgetsBinding.instance.addPostFrameCallback((_) {
+                            if (_detailsKey.currentContext != null) {
+                              Scrollable.ensureVisible(
+                                _detailsKey.currentContext!,
+                                duration: const Duration(milliseconds: 500),
+                                curve: Curves.easeInOut,
+                              );
+                            }
+                          });
+                        }
+                      } catch (e) {
+                        showTopSnackBar(
+                          Overlay.of(context),
+                          AwesomeSnackbarContent(
+                            title: 'Erro',
+                            message: e.toString(),
+                            contentType: ContentType.failure,
+                          ),
+                          displayDuration: Duration(seconds: 5),
+                        );
+                      }
                     },
                     style: ButtonStyle(
                       padding: WidgetStateProperty.all<EdgeInsets>(

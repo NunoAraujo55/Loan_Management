@@ -122,8 +122,6 @@ export class AuthService {
         }
 
         const storedHash = user.getDataValue('RefreshToken');
-        console.log('rt : ', rt);
-        console.log(storedHash);
 
         if (!storedHash) {
             throw new ForbiddenException('Access denied');

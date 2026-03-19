@@ -1,6 +1,5 @@
-import { Body, Controller, Get, Post } from "@nestjs/common";
+import { Body, Controller, Get, Post, Query } from "@nestjs/common";
 import { ContractValueService } from "./contract.value.service";
-import { Public } from "src/auth/decorator";
 import { ContractValueDto, FetchContractValueDto } from "./dto";
 
 
@@ -8,16 +7,14 @@ import { ContractValueDto, FetchContractValueDto } from "./dto";
 export class ContractValueController {
   constructor(private contractValueService: ContractValueService){}
 
-  @Public()
   @Post('add')
   addContractValue(@Body() dto: ContractValueDto){
     return this.contractValueService.addContractValue(dto);
   }
 
-  @Public()
-  @Post('fetch')
-  fetchContractValue(@Body() dto: FetchContractValueDto){
-    return this.contractValueService.fetchContractValue(dto);
+  @Get('fetch')
+  fetchContractValue(@Query('loanId') loanId: number){
+    return this.contractValueService.fetchContractValueByLoanId(loanId);
   }
 
 }

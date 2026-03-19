@@ -25,9 +25,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
 
   // Sign up function
   Future<void> _signUp() async {
-    if (emailController == "" ||
-        passwordController.text == "" ||
-        usernameController.text == "") {
+    if (emailController.text.isEmpty ||
+        passwordController.text.isEmpty ||
+        usernameController.text.isEmpty) {
       showTopSnackBar(
         Overlay.of(context),
         AwesomeSnackbarContent(

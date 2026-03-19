@@ -1,4 +1,4 @@
-import { ForbiddenException, Injectable } from "@nestjs/common";
+import { ForbiddenException, Injectable, NotFoundException } from "@nestjs/common";
 import { InjectModel } from "@nestjs/sequelize";
 import { Contract } from "./contract.model";
 import { ContractDto } from "./dto/index";
@@ -11,7 +11,6 @@ export class ContractService {
 
     async addContract(dto: ContractDto) {
         try {
-            console.log('DTO: ', dto);
             const contract = await this.contractModel.create({
                 loanId: dto.loanId,
                 startingDate: dto.startingDate,
@@ -21,7 +20,6 @@ export class ContractService {
             } as any);
             return contract;
         } catch (e) {
-            console.error('Sequelize Error:', e);
             throw new ForbiddenException('Error creating the contract');
         }
     }
@@ -29,11 +27,11 @@ export class ContractService {
     async getContractsByLoanId(loanId: number) {
       const contracts = await this.contractModel.findAll({
         where: { loanId },
-        order: [['startingDate', 'ASC']], // optional: sort by start date
+        order: [['startingDate', 'ASC']],
       });
 
       if (!contracts || contracts.length === 0) {
-        throw new ForbiddenException(`No contracts found for loan ID: ${loanId}`);
+        throw new NotFoundException(`No contracts found for loan ID: ${loanId}`);
       }
 
       return contracts;

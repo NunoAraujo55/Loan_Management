@@ -133,7 +133,7 @@ class _HomeScreenState extends State<HomeScreen> {
   
   Future<Map<int, List<ContractValues>>> fetchContractValuesGroupedByContract(int loanId) async {
     try {
-      final response = await dio.post('contract/value/fetch', data: {'loanId': loanId});
+      final response = await dio.get('contract/value/fetch', queryParameters: {'loanId': loanId});
       // service devolve 200/201
       if (response.statusCode == 200 || response.statusCode == 201) {
         final List<dynamic> data = response.data;
@@ -313,12 +313,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Future<List<ContractValues>> fetchContractValues(int loanId) async {
     try {
-      final response = await dio.post(
+      final response = await dio.get(
         'contract/value/fetch',
-        data: {'loanId': loanId},
+        queryParameters: {'loanId': loanId},
       );
 
-      if (response.statusCode == 201) {
+      if (response.statusCode == 200) {
         final List<dynamic> data = response.data;
         periodicidade = data.isNotEmpty ? data[0]['term'] ?? 0 : 0;
         final values = data
